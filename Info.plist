@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMAccepts</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Optional</key>
+		<false/>
+		<key>Types</key>
+		<array>
+			<string>com.apple.applescript.alias-object</string>
+		</array>
+	</dict>
+	<key>AMApplication</key>
+	<string>Finder</string>
+	<key>AMCanShowSelectedItemsWhenRun</key>
+	<false/>
+	<key>AMCanShowWhenRun</key>
+	<true/>
+	<key>AMCategory</key>
+    <string>AMCategoryFilesAndFolders</string>
+	<key>AMDefaultParameters</key>
+	<dict>
+        <key>simulation</key>
+        <true/>
+        <key>findText</key>
+        <string></string>
+        <key>shouldReplace</key>
+        <false/>
+        <key>replaceText</key>
+        <string></string>
+        <key>useRegExp</key>
+        <true/>
+        <key>useRegExpTypeIndex</key>
+        <integer>0</integer>
+    </dict>
+	<key>AMDescription</key>
+	<dict>
+		<key>AMDAlert</key>
+		<string></string>
+		<key>AMDInput</key>
+		<string></string>
+		<key>AMDNote</key>
+		<string>In simulation mode only the modified names of the Finder items are returned.</string>
+		<key>AMDOptions</key>
+		<string>You can choose to use powerful ICU regular expressions to filter/replace text in the item names.</string>
+		<key>AMDRelatedActions</key>
+		<array/>
+		<key>AMDRequires</key>
+		<string></string>
+		<key>AMDResult</key>
+		<string></string>
+		<key>AMDSummary</key>
+		<string>Filters or renames the given Finder items.</string>
+        <key>AMDWebsite</key>
+        <string>http://userguide.icu-project.org/strings/regexp#TOC-Regular-Expression-Metacharacters</string>
+	</dict>
+	<key>AMIconName</key>
+	<string>Finder</string>
+	<key>AMKeywords</key>
+	<array>
+        <string>Finder</string>
+        <string>Item</string>
+        <string>Path</string>
+        <string>Regular Expression</string>
+    </array>
+	<key>AMName</key>
+	<string>Regex Finder Items</string>
+	<key>AMProvides</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Types</key>
+		<array>
+			<string>com.apple.applescript.alias-object</string>
+		</array>
+	</dict>
+	<key>AMWarning</key>
+	<dict>
+		<key>Action</key>
+		<string>com.apple.Automator.CopyFiles</string>
+		<key>ApplyButton</key>
+		<string>Add</string>
+		<key>IgnoreButton</key>
+		<string>Don't Add</string>
+		<key>Level</key>
+		<integer>2</integer>
+		<key>Message</key>
+		<string>This action may change the names of the Finder items passed into it.  Would you like to add a Copy Finder Items action so that the copies are changed and your originals are preserved?</string>
+	</dict>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+    <key>CFBundleExecutable</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Regex Finder Items, Copyright © 2010 Let Software Dream Ltd. Uses RegexKitLite that is Copyright © 2008-2010, John Engelhart.</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>biz.lsd-ltd.otto.RegexFinderItems</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.0</string>
+	<key>CFBundleSignature</key>
+	<string>DNtp</string>
+	<key>CFBundleVersion</key>
+	<string>2.0.2</string>
+	<key>NSPrincipalClass</key>
+	<string>AMAppleScriptAction</string>
+</dict>
+</plist>
